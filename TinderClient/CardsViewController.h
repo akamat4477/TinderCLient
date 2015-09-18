@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CardsViewController.h
 //  TinderClient
 //
 //  Created by anjaneya kamat on 9/18/15.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning>
-
+@interface CardsViewController : UIViewController<UIViewControllerTransitioningDelegate, UIViewControllerAnimatedTransitioning>
 
 
 @end
-

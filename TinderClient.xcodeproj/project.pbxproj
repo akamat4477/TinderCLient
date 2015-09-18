@@ -14,6 +14,10 @@
 		5B438CD61BAC912000ED9B89 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B438CD51BAC912000ED9B89 /* Images.xcassets */; };
 		5B438CD91BAC912000ED9B89 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B438CD71BAC912000ED9B89 /* LaunchScreen.xib */; };
 		5B438CE51BAC912000ED9B89 /* TinderClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B438CE41BAC912000ED9B89 /* TinderClientTests.m */; };
+		5B438CF11BAC938100ED9B89 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B438CEF1BAC938100ED9B89 /* CardsViewController.m */; };
+		5B438CF21BAC938100ED9B89 /* CardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B438CF01BAC938100ED9B89 /* CardsViewController.xib */; };
+		5B438CFB1BAC9C8D00ED9B89 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B438CF91BAC9C8D00ED9B89 /* ProfileViewController.m */; };
+		5B438CFC1BAC9C8D00ED9B89 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B438CFA1BAC9C8D00ED9B89 /* ProfileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		5B438CDE1BAC912000ED9B89 /* TinderClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B438CE31BAC912000ED9B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B438CE41BAC912000ED9B89 /* TinderClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TinderClientTests.m; sourceTree = "<group>"; };
+		5B438CEE1BAC938100ED9B89 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardsViewController.h; sourceTree = "<group>"; };
+		5B438CEF1BAC938100ED9B89 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardsViewController.m; sourceTree = "<group>"; };
+		5B438CF01BAC938100ED9B89 /* CardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
+		5B438CF81BAC9C8D00ED9B89 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5B438CF91BAC9C8D00ED9B89 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5B438CFA1BAC9C8D00ED9B89 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,12 @@
 				5B438CD51BAC912000ED9B89 /* Images.xcassets */,
 				5B438CD71BAC912000ED9B89 /* LaunchScreen.xib */,
 				5B438CC81BAC912000ED9B89 /* Supporting Files */,
+				5B438CEE1BAC938100ED9B89 /* CardsViewController.h */,
+				5B438CEF1BAC938100ED9B89 /* CardsViewController.m */,
+				5B438CF01BAC938100ED9B89 /* CardsViewController.xib */,
+				5B438CF81BAC9C8D00ED9B89 /* ProfileViewController.h */,
+				5B438CF91BAC9C8D00ED9B89 /* ProfileViewController.m */,
+				5B438CFA1BAC9C8D00ED9B89 /* ProfileViewController.xib */,
 			);
 			path = TinderClient;
 			sourceTree = "<group>";
@@ -199,8 +215,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B438CF21BAC938100ED9B89 /* CardsViewController.xib in Resources */,
 				5B438CD41BAC912000ED9B89 /* Main.storyboard in Resources */,
 				5B438CD91BAC912000ED9B89 /* LaunchScreen.xib in Resources */,
+				5B438CFC1BAC9C8D00ED9B89 /* ProfileViewController.xib in Resources */,
 				5B438CD61BAC912000ED9B89 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B438CF11BAC938100ED9B89 /* CardsViewController.m in Sources */,
 				5B438CD11BAC912000ED9B89 /* ViewController.m in Sources */,
 				5B438CCE1BAC912000ED9B89 /* AppDelegate.m in Sources */,
 				5B438CCB1BAC912000ED9B89 /* main.m in Sources */,
+				5B438CFB1BAC9C8D00ED9B89 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +438,7 @@
 				5B438CEA1BAC912000ED9B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B438CEB1BAC912000ED9B89 /* Build configuration list for PBXNativeTarget "TinderClientTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +447,7 @@
 				5B438CED1BAC912000ED9B89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
